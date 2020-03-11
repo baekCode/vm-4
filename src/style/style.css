@@ -1,0 +1,338 @@
+/* Layout */
+/* color */
+/* Font-family */
+/* Font-size */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: AppleSDGothicNeo, sans-serif;
+  font-size: 100%;
+  letter-spacing: -0.02em;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  min-width: 1000px;
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  color: #000;
+  text-decoration: none;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+  border: 1px solid #d5d2d2;
+  border-radius: 4px;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder {
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="date"]:-ms-input-placeholder {
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+}
+
+input[type="text"]::-ms-input-placeholder,
+input[type="password"]::-ms-input-placeholder,
+input[type="date"]::-ms-input-placeholder {
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="date"]::placeholder {
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+  text-indent: 15px;
+  border: 1px solid #d5d2d2;
+  border-radius: 4px;
+  background: #fff;
+}
+
+button {
+  width: 100%;
+  height: 30px;
+}
+
+h1 {
+  margin: 50px auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Layout */
+/* color */
+/* Font-family */
+/* Font-size */
+/* Layout */
+/* color */
+/* Font-family */
+/* Font-size */
+#vending-machine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  background: #353746;
+}
+
+#vending-machine #vm-items {
+  width: 65%;
+  padding: 10px;
+  border: 2px solid #e75748;
+  border-radius: 5px;
+  background: #fdf1d7;
+}
+
+#vending-machine #vm-items .item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#vending-machine #vm-items .item-list li {
+  width: 20%;
+  margin: 2.5%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #353746;
+  background: #fff;
+}
+
+#vending-machine #vm-items .item-list li span {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 3px;
+  background: #2cb69c;
+}
+
+#vending-machine #vm-state {
+  padding: 0 10px;
+  width: 35%;
+}
+
+#vending-machine #vm-state .state-money {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: right;
+  background: #2cb69c;
+}
+
+#vending-machine #vm-state .state-numbers {
+  margin-bottom: 10px;
+}
+
+#vending-machine #vm-state .state-numbers > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#vending-machine #vm-state .state-numbers > ul li {
+  width: 33.3%;
+}
+
+#vending-machine #vm-state .state-numbers > ul li button {
+  border: 1px solid #353746;
+}
+
+#vending-machine #vm-state .state-numbers > ul li:last-child {
+  width: calc(100% - 33.3%);
+}
+
+#vending-machine #vm-state .state-numbers > ul li:last-child button {
+  color: #fff;
+  background: #e75748;
+}
+
+#vending-machine #vm-state .state-message {
+  min-height: 100px;
+  padding: 10px;
+  border: 2px solid #e75748;
+  border-radius: 5px;
+  background: #fdf1d7;
+}
+
+/* Layout */
+/* color */
+/* Font-family */
+/* Font-size */
+#wallet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 600px;
+  margin: 20px auto;
+}
+
+#wallet .wallet-state {
+  width: 80%;
+}
+
+#wallet .wallet-state ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#wallet .wallet-state ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  margin: 5px 0;
+}
+
+#wallet .wallet-state ul li button {
+  width: 50%;
+}
+
+#wallet .wallet-state ul li span {
+  width: 50%;
+  font-size: 13px;
+  text-align: center;
+}
+
+#wallet .wallet-total {
+  width: 20%;
+  font-size: 30px;
+}
